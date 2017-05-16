@@ -82,3 +82,8 @@ bind(
   name = "apache_commons_lang3",
   actual = "@apache_commons_lang3_maven//jar"
 )
+
+bind(
+  name = "benchmark",
+  actual = "//thirdparty/benchmark",
+)

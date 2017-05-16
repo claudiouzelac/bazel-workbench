@@ -1,3 +1,5 @@
+package(default_visibility = ["//visibility:public"])
+
 cc_library(
     name = "benchmark",
     srcs = [
@@ -39,7 +41,6 @@ cc_library(
         "upstream/include/benchmark/macros.h",
         "upstream/include/benchmark/reporter.h",
     ],
-    visibility = ["//test:__pkg__"],
     defines = ["HAVE_POSIX_REGEX"],
     includes = [
                 "upstream/include"
