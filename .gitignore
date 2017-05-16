@@ -1,0 +1,9 @@
+# Bazel
+bazel-*
+
+# Visualization
+*.in
+*.png
+
+# OSX
+.DS_Store
