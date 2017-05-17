@@ -23,6 +23,16 @@ cc_test(
   ]
 )
 
+
+cc_test(
+    name = "googletest-example",
+    srcs = ["test/googletest-example.cc"],
+    copts = ["-Iexternal/gtest"],
+    deps = [
+      "//thirdparty/gtest:gtest_main",
+    ],
+)
+
 docker_build(
     name = "hello_docker",
     base = "@docker_alpinelinux//:35",
