@@ -1,3 +1,9 @@
 [submodule "thirdparty/benchmark/upstream"]
 	path = thirdparty/benchmark/upstream
 	url = https://github.com/google/benchmark.git
+[submodule "thirdparty/gtest/upstream"]
+	path = thirdparty/gtest/upstream
+	url = https://github.com/google/googletest.git
+[submodule "thirdparty/gflags/upstream"]
+	path = thirdparty/gflags/upstream
+	url = https://github.com/gflags/gflags.git
