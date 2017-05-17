@@ -2,6 +2,7 @@ licenses(["notice"])
 
 cc_library(
   name = "gtest",
+  testonly = 1,
   visibility = ["//visibility:public"],
   includes = [
     "upstream/googletest/include",
@@ -43,6 +44,7 @@ cc_library(
 
 cc_library(
   name = "gtest_main",
+  testonly = 1,
   visibility = ["//visibility:public"],
   deps = [
     ":gtest",
@@ -54,6 +56,7 @@ cc_library(
 
 cc_library(
   name = "gtest_prod",
+  testonly = 1,
   visibility = ["//visibility:public"],
   hdrs = [
     "upstream/googletest/include/gtest/gtest_prod.h",
