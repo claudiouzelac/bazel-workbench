@@ -15,6 +15,14 @@ Jetbrain's projects with the [Bazel Plugin](https://github.com/bazelbuild/intell
 
 ## Command Line Fun
 
+Run GRPC server:
+
+  `bazel run //cpp:server`
+
+RUN GRPC client:
+
+  `bazel run //cpp:client`
+
 Run the hello executable:
 
   `bazel run //cpp:hello`
