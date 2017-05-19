@@ -49,7 +49,7 @@ Run the docker image:
 
 Generate a depedency graph:
 
-  `bazel query 'deps(//:cpp)' --output graph > graph.in`
+  `bazel query 'deps(//cpp:googletest-example)' --output graph > graph.in`
 
   `dot -Tpng < graph.in > graph.png`
    
