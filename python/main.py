@@ -11,7 +11,7 @@ def main():
   print "pyyaml' path: %s" % yaml.__file__
 
   import os
-  path = os.path.join(os.path.dirname(__file__), 'resources', 'test.json')
+  path = os.path.join(os.path.dirname(__file__), 'resources', 'example.json')
 
   with open(path) as f:
     content = f.read().strip()
